@@ -1,0 +1,17 @@
+{
+  "network": "testnet-bradbury",
+  "chainId": 4221,
+  "sender": "0x4604a582B66431481D5320fed67C785bdb4D7Fe0",
+  "sdk": "genlayer-js@1.1.8",
+  "project": "milestone-proof",
+  "source": "contract.py",
+  "sourceSha256": "46427f3f25dda6323a126ae409ad078babb89cfe8eebe5de20b9dbe023bba9b2",
+  "txId": "0xb9bf86a7ae512108bd29af1c41fc9df742c77b8ac9ae1201e229c95ee87b1ea2",
+  "observedStatus": "REVEALING",
+  "observedAt": "2026-09-27T16:19:02.268Z",
+  "executionResult": "FINISHED_WITH_RETURN",
+  "recipient": "0x573e47cD59035C0fa8CB6f135acD0D77a591F244",
+  "evidence": "consensus-record-and-matching-source",
+  "finalityVerified": false,
+  "note": "Transaction existence was verified. Successful deployment and finality are not asserted."
+}

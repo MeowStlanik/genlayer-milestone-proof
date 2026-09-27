@@ -1,0 +1,98 @@
+{
+  "ctor": {
+    "kwparams": {},
+    "params": []
+  },
+  "methods": {
+    "accept": {
+      "kwparams": {},
+      "params": [
+        [
+          "case_id",
+          "string"
+        ],
+        [
+          "rubric_hash",
+          "string"
+        ]
+      ],
+      "payable": false,
+      "readonly": false,
+      "ret": "any"
+    },
+    "create": {
+      "kwparams": {},
+      "params": [
+        [
+          "case_id",
+          "string"
+        ],
+        [
+          "builder",
+          "address"
+        ],
+        [
+          "rubric_json",
+          "string"
+        ]
+      ],
+      "payable": false,
+      "readonly": false,
+      "ret": "any"
+    },
+    "evaluate": {
+      "kwparams": {},
+      "params": [
+        [
+          "case_id",
+          "string"
+        ]
+      ],
+      "payable": false,
+      "readonly": false,
+      "ret": "any"
+    },
+    "get_case": {
+      "kwparams": {},
+      "params": [
+        [
+          "case_id",
+          "string"
+        ]
+      ],
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_receipt": {
+      "kwparams": {},
+      "params": [
+        [
+          "case_id",
+          "string"
+        ],
+        [
+          "revision",
+          "int"
+        ]
+      ],
+      "readonly": true,
+      "ret": "string"
+    },
+    "submit": {
+      "kwparams": {},
+      "params": [
+        [
+          "case_id",
+          "string"
+        ],
+        [
+          "evidence",
+          "string"
+        ]
+      ],
+      "payable": false,
+      "readonly": false,
+      "ret": "any"
+    }
+  }
+}
